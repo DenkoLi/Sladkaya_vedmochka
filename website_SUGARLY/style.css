@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    min-height: 50vh;
+    align-items: stretch;
+    align-items: start;
+    margin: auto;
+
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.header {
+    min-height: 50vh ;
+    width: 100%;
+    background-image: linear-gradient(rgba(248, 177, 226, 0.7), rgba(92, 35, 142, 0.7)),url(witch.v1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 350px; 
+
+}
+
+.imag_hea{
+    width: 400px;
+}
+
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links_1 ul li a{
+    color: #fff;
+    text-decoration:underline;
+    text-decoration-color: rgb(255, 90, 255);
+    text-decoration-skip-ink: auto; 
+}
+
